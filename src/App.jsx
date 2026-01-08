@@ -9,6 +9,7 @@ import { BuyNow } from "./Pages/BuyNow";
 import { Cart } from "./Pages/Cart";
 
 function App() {
+  let _a;
   const router = createBrowserRouter([
     {
       path: "/",
